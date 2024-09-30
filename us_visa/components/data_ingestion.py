@@ -24,7 +24,7 @@ class DataIngestion:
             raise USVisaException(e,sys)
         
 
-    def export_data_into_feature_store(self)->DataFrame:
+    def export_data_into_feature_store(self) -> DataFrame:
         """
         Method Name :   export_data_into_feature_store
         Description :   This method exports data from mongodb to csv file
@@ -36,6 +36,7 @@ class DataIngestion:
             logging.info(f"Exporting data from mongodb")
             
             usvisa_data = USvisaData()
+            
             dataframe = usvisa_data.export_collection_as_dataframe(collection_name = self.data_ingestion_config.collection_name)
             
             logging.info(f"Shape of dataframe: {dataframe.shape}")
@@ -53,7 +54,7 @@ class DataIngestion:
             raise USVisaException(e,sys)
 
 
-    def split_data_as_train_test(self,dataframe: DataFrame) ->None:
+    def split_data_as_train_test(self,dataframe: DataFrame) -> None:
         """
         Method Name :   split_data_as_train_test
         Description :   This method splits the dataframe into train set and test set based on split ratio 
