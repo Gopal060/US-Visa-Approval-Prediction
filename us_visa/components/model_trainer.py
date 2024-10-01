@@ -14,7 +14,7 @@ from us_visa.utils.main_utils import load_numpy_array_data, read_yaml_file, load
 from us_visa.entity.config_entity import ModelTrainerConfig
 from us_visa.entity.artifact_entity import DataTransformationArtifact, ModelTrainerArtifact, ClassificationMetricArtifact
 from us_visa.entity.estimator import USVisaModel
-
+    
 class ModelTrainer:
     
     def __init__(self, data_transformation_artifact: DataTransformationArtifact,

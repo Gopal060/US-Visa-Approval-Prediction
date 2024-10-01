@@ -186,7 +186,7 @@ class DataTransformation:
 
                 logging.info("Applied SMOTEENN on testing dataset")
 
-                logging.info("Created train array and test array")
+                logging.info("Created train array and test array") 
 
                 train_arr = np.c_[
                     input_feature_train_final, np.array(target_feature_train_final)
@@ -207,11 +207,11 @@ class DataTransformation:
                 )
 
                 data_transformation_artifact = DataTransformationArtifact(
-                    transformed_object_file_path=self.data_transformation_config.transformed_object_file_path,
-                    transformed_train_file_path=self.data_transformation_config.transformed_train_file_path,
-                    transformed_test_file_path=self.data_transformation_config.transformed_test_file_path
+                    transformed_object_file_path = self.data_transformation_config.transformed_object_file_path,
+                    transformed_train_file_path = self.data_transformation_config.transformed_train_file_path,
+                    transformed_test_file_path = self.data_transformation_config.transformed_test_file_path
                 )
-                
+
                 return data_transformation_artifact
             
             else:

@@ -28,8 +28,8 @@ class USVisaModel:
     
     def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
         """
-        :param preprocessing_object: Input Object of preprocessor
-        :param trained_model_object: Input Object of trained model 
+        param preprocessing_object: Input Object of preprocessor
+        param trained_model_object: Input Object of trained model 
         """
         self.preprocessing_object = preprocessing_object
         self.trained_model_object = trained_model_object
@@ -40,7 +40,7 @@ class USVisaModel:
         which guarantees that the inputs are in the same format as the training data
         At last it performs prediction on transformed features
         """
-        logging.info("Entered predict method of UTruckModel class")
+        logging.info("Entered predict method of USVisaModel class")
 
         try:
             logging.info("Using the trained model to get predictions")
