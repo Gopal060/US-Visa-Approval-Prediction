@@ -42,15 +42,15 @@ git push origin main
 
 ## How to Run This Project
 
-1. Create a new conda environment:
+1. Create a new conda environment
    ```bash
    conda create -n visa python=3.8 -y
    ```
-2. Activate the environment:
+2. Activate the environment
    ```bash
    conda activate visa
    ```
-3. Install the required packages:
+3. Install the required packages
    ```bash
    pip install -r requirements.txt
    ```
