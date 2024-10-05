@@ -77,7 +77,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 1. Log in to the AWS console.
 2. Create an IAM user for deployment.
 3. Create an ECR repository to store the Docker image.
-4. Create an EC2 instance (e.g., using Ubuntu).
+4. Create an EC2 instance (In my case I'm using Ubuntu Machine).
 5. Access the EC2 instance and install Docker.
 6. Configure EC2 as a self-hosted runner.
 7. Set up GitHub secrets for secure access.
