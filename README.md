@@ -21,10 +21,10 @@ I developed a classification machine learning model to predict US visa approvals
 - **Data Manipulation**: NumPy, Pandas
 - **Data Visualization**: Matplotlib, Seaborn
 - **Containerization**: Docker
-- **Database**: MongoDB (for storing unstructured data)
-- **API Development**: FastAPI (for quick API development with automatic interactive documentation), Flask (for creating simple web applications)
-- **Model Monitoring**: Evidently (to track changes in data distributions)
-- **CI/CD Tool**: GitHub Actions (automates testing and deployment processes)
+- **Database**: MongoDB for storing unstructured data
+- **API Development**: FastAPI for quick API development with automatic interactive documentation , Flask for creating simple web applications
+- **Model Monitoring**: Evidently to track changes in data distributions
+- **CI/CD Tool**: GitHub Actions automates testing and deployment processes
 - **Cloud Services**:
   - **AWS EC2**: Scalable virtual servers to run applications
   - **AWS ECR**: Simplifies management and storage of Docker images
@@ -42,15 +42,15 @@ git push origin main
 
 ## How to Run This Project
 
-1. Create a new conda environment:
+1. Create a new conda environment
    ```bash
    conda create -n visa python=3.8 -y
    ```
-2. Activate the environment:
+2. Activate the environment
    ```bash
    conda activate visa
    ```
-3. Install the required packages:
+3. Install the required packages
    ```bash
    pip install -r requirements.txt
    ```
@@ -77,7 +77,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 1. Log in to the AWS console.
 2. Create an IAM user for deployment.
 3. Create an ECR repository to store the Docker image.
-4. Create an EC2 instance (e.g., using Ubuntu).
+4. Create an EC2 instance (In my case I'm using Ubuntu Machine).
 5. Access the EC2 instance and install Docker.
 6. Configure EC2 as a self-hosted runner.
 7. Set up GitHub secrets for secure access.
