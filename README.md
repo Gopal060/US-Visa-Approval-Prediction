@@ -9,7 +9,7 @@
 
 ## Problem Statement
 
-With the increasing volume of US visa applications, accurately predicting approval outcomes has become essential. By analyzing key applicant features such as continent, education, job experience, training, employment status, and age, we can build a model that streamlines decision-making and enhances processing efficiency.
+With the increasing volume of US visa applications, accurately predicting approval outcomes has become essential. By analyzing key applicant features such as continent, education, job experience, training, employment status, and age, we can build a model that streamlines decision making and enhances processing efficiency.
 
 ## Problem Solution
 
@@ -81,3 +81,6 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 5. Access the EC2 instance and install Docker.
 6. Configure EC2 as a self-hosted runner.
 7. Set up GitHub secrets for secure access.
+
+
+
