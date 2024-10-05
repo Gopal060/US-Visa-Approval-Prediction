@@ -21,10 +21,10 @@ I developed a classification machine learning model to predict US visa approvals
 - **Data Manipulation**: NumPy, Pandas
 - **Data Visualization**: Matplotlib, Seaborn
 - **Containerization**: Docker
-- **Database**: MongoDB (for storing unstructured data)
-- **API Development**: FastAPI (for quick API development with automatic interactive documentation), Flask (for creating simple web applications)
-- **Model Monitoring**: Evidently (to track changes in data distributions)
-- **CI/CD Tool**: GitHub Actions (automates testing and deployment processes)
+- **Database**: MongoDB for storing unstructured data
+- **API Development**: FastAPI for quick API development with automatic interactive documentation , Flask for creating simple web applications
+- **Model Monitoring**: Evidently to track changes in data distributions
+- **CI/CD Tool**: GitHub Actions automates testing and deployment processes
 - **Cloud Services**:
   - **AWS EC2**: Scalable virtual servers to run applications
   - **AWS ECR**: Simplifies management and storage of Docker images
